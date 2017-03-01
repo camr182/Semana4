@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/starFavoritos"
+        android:title="Favoritos"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="ifRoom"
+
+        >
+
+
+    </item>
+
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/menu_Contacto"
+        android:orderInCategory="100"
+
+        >
+
+    </item>
+    <item
+        android:id="@+id/mAceraD"
+        android:title="@string/menu_AcercaD"
+        android:orderInCategory="101"
+        >
+
+    </item>
+
+
+
+</menu>

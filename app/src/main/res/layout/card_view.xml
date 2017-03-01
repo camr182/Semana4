@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvAnimes"
+    android:layout_width="match_parent"
+    android:layout_height="335dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="4dp"
+    card_view:cardUseCompatPadding="true"
+    android:layout_centerHorizontal="true"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ivFoto"
+            >
+
+            <ImageView
+                android:id="@+id/ivHueso1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hueso_del_perro_50"
+                android:layout_alignParentTop="true" />
+
+            <TextView
+                android:id="@+id/txtdescripción"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Descripción"
+                android:textAlignment="center"
+                android:layout_centerVertical="true"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+                android:layout_toRightOf="@+id/ivHueso1"/>
+
+            <TextView
+                android:id="@+id/tvRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/ivHueso2"
+                android:text="5"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <ImageView
+                android:id="@+id/ivHueso2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/hueso_del_perro_48"
+                android:layout_alignParentRight="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+        <!--
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivFoto"
+        android:text="Titulo"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        -->
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
